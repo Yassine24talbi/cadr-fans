@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Cadre Fans</title>
+</head>
+<body>
+    <div class="message" id="message"></div>
+    <div class="menu">
+        <div class="logo"><img src="logo.png" alt="logo"></div>
+        <ul class="indexs" id="indexmenu">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="store.html" style="font-weight: 500;color: rgb(171, 145, 0)">Store</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+        <i class='bx bx-chevrons-right' onclick="openmenu.call(this)" id="openbutton"></i>
+    </div>
+    <div class="nav-bar">
+        
+        <ul class="indexs">
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="store.html" style="font-weight: 500;color: rgb(171, 145, 0)">Store</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
+        </ul>
+        <div class="logo"><img src="logo.png" alt="logo"></div>
+        <ul class="indexs" id="social">
+            <li><a href="https://www.instagram.com/cadr_fans/">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@cadr.fans">Tiktok</a></li>
+            <li><a href="#">whatsapp</a></li>
+        </ul>
+    </div>
+    <!-- header -->
+    <div class="contenaire">
+        <div class="decor">
+            <h1>Capture the Moment with CaderFans:</h1>
+            <span>Motivational Art and Creativity Framed for You</span>
+        </div>
+        <div class="loader">
+          <div class="box-1"></div>
+          <div class="box-2"></div>
+          <div class="box-3"></div>
+        </div>
+    </div>
+    <!-- main -->
+     <div class="holder">
+        <form>
+            <input type="text" placeholder="serche for something...">
+            <i class='bx bx-search-alt-2'></i>
+        </form>
+        <div class="products" id="products"></div>
+     </div>
+     <i class='bx bx-cart' id="cart" onclick="opencart()"><div id="num"></div></i>
+     <div class="checkpro" id="checkpro">
+     </div>
+     <div class="sendemail">
+        <form>
+            <input type="email" placeholder="Entre your email">
+            <input type="submit" value="Go">
+        </form>
+        <label>when you send your email that mean you agree to recive email's about news from Us!</label>
+        <div class="icons">
+            <a href="#"><i class='bx bxl-facebook' style='color:#ffffff'></i></a>
+            <a href="#"><i class='bx bxl-instagram' style='color:#ffffff' ></i></a>
+            <a href="#"><i class='bx bxl-tiktok' style='color:#ffffff' ></i></a>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="store.js"></script>
+</body>
+</html>
